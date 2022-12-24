@@ -1,0 +1,7 @@
+.header {
+  font-family: var(--font);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  grid-area: header;
+}
