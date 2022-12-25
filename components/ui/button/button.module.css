@@ -1,0 +1,34 @@
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  background: #eee;
+  transform: scale(1.03);
+}
+
+.button:active {
+  background: #ddd;
+  transform: scale(0.96);
+}
+
+.button[data-variant="primary"] {
+  background: #333;
+  color: #fff;
+}
+
+.button[data-variant="secondary"] {
+  background: #eee;
+  color: #333;
+}
